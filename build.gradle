@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'me.videogame'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { url "http://files.minecraftforge.net/maven" }
+    maven { url "https://jitpack.io/" }
+}
+
+dependencies {
+    implementation "com.github.Col-E:Recaf:2.18.3"
+}
