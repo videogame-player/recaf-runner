@@ -13,5 +13,5 @@ repositories {
 }
 
 dependencies {
-    implementation "com.github.Col-E:Recaf:2.18.3"
+    compileOnly "com.github.Col-E:Recaf:2.18.3"
 }
